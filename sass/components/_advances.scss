@@ -1,0 +1,39 @@
+.advances {
+    padding-bottom: 0px;
+}
+
+.advances__list {
+    display: flex;
+}
+
+.advances__background {
+    background-color: var(--gray-background-color);
+    border-radius: 4px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.advances__icon {
+    width: 70px;
+    height: 70px;
+
+}
+
+.advances__item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.advances__tytle {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.14;
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+
+.advances__text {
+    line-height: 1.71;
+    color: var(--third-color);
+}
